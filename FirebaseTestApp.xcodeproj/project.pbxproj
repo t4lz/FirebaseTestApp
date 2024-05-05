@@ -18,6 +18,7 @@
 		3FD5BE162BE8116400D5540C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3FD5BE152BE8116400D5540C /* FirebaseAuth */; };
 		3FD5BE182BE8116400D5540C /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3FD5BE172BE8116400D5540C /* FirebaseFirestoreSwift */; };
 		3FD5BE1A2BE8116400D5540C /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 3FD5BE192BE8116400D5540C /* FirebaseInstallations */; };
+		3FD5BE1E2BE814D300D5540C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FD5BE1D2BE814D300D5540C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3FD5BE012BE80D1800D5540C /* FirebaseTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD5BE052BE80D1800D5540C /* FirebaseTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseTestAppUITests.swift; sourceTree = "<group>"; };
 		3FD5BE072BE80D1800D5540C /* FirebaseTestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseTestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FD5BE1D2BE814D300D5540C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				3FD5BDEA2BE80D1600D5540C /* ContentView.swift */,
 				3FD5BDEC2BE80D1600D5540C /* Item.swift */,
 				3FD5BDEE2BE80D1800D5540C /* Assets.xcassets */,
+				3FD5BE1D2BE814D300D5540C /* GoogleService-Info.plist */,
 				3FD5BDF02BE80D1800D5540C /* Preview Content */,
 			);
 			path = FirebaseTestApp;
@@ -250,6 +253,7 @@
 			files = (
 				3FD5BDF22BE80D1800D5540C /* Preview Assets.xcassets in Resources */,
 				3FD5BDEF2BE80D1800D5540C /* Assets.xcassets in Resources */,
+				3FD5BE1E2BE814D300D5540C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
